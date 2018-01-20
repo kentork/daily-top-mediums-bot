@@ -91,7 +91,7 @@ def lambda_handler(event, context):
 
         data = {
             "text":
-            "Most popular on January 16, 2018 {}".format(
+            "Most popular on {}".format(
                 yesterday.strftime('%B %d, %Y')),
             "attachments":
             posts
